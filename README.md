@@ -1,11 +1,11 @@
-# @nighttt/ui
+# @awaymess/ui
 
 Custom MUI UI Component Library with Liquid Glass Design.
 
 ## Installation
 
 ```bash
-npm install @nighttt/ui @mui/material @emotion/react @emotion/styled @mui/icons-material
+npm install @awaymess/ui @mui/material @emotion/react @emotion/styled @mui/icons-material
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install @nighttt/ui @mui/material @emotion/react @emotion/styled @mui/icons-
 For the library to automatically apply the Glass Design to all components, wrap your app with the provider at the root level.
 
 ```tsx
-import { LibThemeProvider } from '@nighttt/ui';
+import { LibThemeProvider } from '@awaymess/ui';
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
 All standard MUI components exported by this library have been restyled automatically. You don't need to do any extra work!
 
 ```tsx
-import { Button, TextField, Stack } from '@nighttt/ui';
+import { Button, TextField, Stack } from '@awaymess/ui';
 
 function MyForm() {
   return (
@@ -53,7 +53,7 @@ We also provide ready-made complex components that utilize the glass theme out o
 #### `UserCard`
 
 ```tsx
-import { UserCard } from '@nighttt/ui';
+import { UserCard } from '@awaymess/ui';
 
 function Profile() {
   return (
@@ -71,7 +71,7 @@ function Profile() {
 A complex form that showcases multiple restyled MUI components (Inputs, Selects, Checkboxes, Switches, Buttons) working together.
 
 ```tsx
-import { ExampleForm } from '@nighttt/ui';
+import { ExampleForm } from '@awaymess/ui';
 
 function RegistrationPage() {
   return <ExampleForm />;
